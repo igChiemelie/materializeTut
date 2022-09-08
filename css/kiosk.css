@@ -1,0 +1,236 @@
+body,html{
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 993px){
+    .container {
+        width: 86.6%;
+    }
+}
+.navbar-fixed{
+    position: relative;
+    z-index: 997;
+    height: 56px;
+}
+.navbar-fixed nav{
+    position: fixed;
+
+}
+.navfeature{
+    box-shadow: none;         /*very important...use to remove d height shadow */
+}
+
+nav .brand-logo {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+nav .brand-logo img {
+    vertical-align: middle;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.navfeature .container #move{
+    margin-left: 0px;
+
+}
+
+.armyGreen-text {
+    color: #629239;
+}
+.offArmyGreenBckGrd, .btn.offArmyGreenBckGrd:hover {
+    background-color: #689f38;
+}
+.darkOrange-text {
+    color: #e26905;
+}
+.offdarkOrangeBckGrd,  .btn.offdarkOrangeBckGrd:hover {
+    background-color: #ef6c00;
+}
+.bannerImg {
+    width: 100%;
+   /* -moz-border-radius: 10px;
+   border-radius: 10px;
+   -ms-border-radius: 10px; */
+
+}
+
+.splash{
+    padding-top: 20px;
+}
+.splashP{
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 440px;
+}
+@media only screen and (max-width: 992px){
+    .splashImgContainer{
+        width: 100%;
+        height: 100%;
+        max-width: initial;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .splashImg{
+        width: 100%;
+        max-width: 740px;
+        max-height: 100%;
+        margin-bottom: 10px;
+    }
+    
+
+}
+.splashImgContainer{
+    width: 100%;
+    height: 100%;
+    max-width: initial;
+    padding: 0px;
+    margin: 0px;
+}
+.splashImg{
+    border-radius:10px;
+    -moz-border-radius: 10px;
+   border-radius: 10px;
+   -ms-border-radius: 10px;
+   /* margin-bottom: -44px; */
+   margin-top: 20px;
+   /* overflow-y: hidden; */
+}
+
+
+.padding{
+    /* padding-top: 2rem; */
+    /* padding-bottom: 1rem; */
+
+}
+#install{
+    margin-bottom: 50px;
+}
+.ul{
+    margin-bottom: 16px;
+}
+.ul li{
+    margin: 14px 0;
+    font-size: 13.88px;
+}
+.ul span{
+    background-color: #689f38;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0 6px;
+    border-radius: 2px;
+    line-height: 22px;
+    
+}
+.ul a{
+    color :#689f38;
+}
+.text{
+    color :#689f38;
+}
+.orangetext{
+    color:  #ef6c00;
+}
+.ul2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 20px;
+
+}
+.ul2 li{
+    margin: 13px 0;
+    font-size: 13.88px;
+}
+.ul2 span{
+    background-color:  #ef6c00;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0 6px;
+    border-radius: 2px;
+    line-height: 22px;
+    
+}
+.ul3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    /* line-height: 28px; */
+
+}
+.ul3 li{
+    margin: 14px 0;
+    font-size: 13.88px;
+}
+.ul3 span{
+    /* background-color:  #ef6c00; */
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 0 6px;
+    border-radius: 2px;
+    line-height: 22px;
+    margin: 0 1px;
+    /* box-sizing: border-box; */
+    
+}
+.padding2{
+    background-color: #ececec;
+}
+.padding2 .ul4{
+    margin-bottom: 16px;   
+    padding-left: 16px;
+}
+.padding2 .ul4 li{
+    margin: 9px 0;
+    font-size: 13.8px;
+    list-style: initial;
+    padding: 0px;
+    
+}
+blockquote{
+    border-left: 5px solid #689f38;
+}
+.padding a span{
+    position: relative;
+    bottom: 0.2rem;
+    /* left: 0.5rem; */
+    padding: 0 18px;
+}
+.section .ul4{
+    padding-left: 20px;
+}
+.section ul li{
+    margin: 9px 0;
+    font-size: 13.8px;
+    list-style: initial;
+    padding: 0px;
+}
+#feature{
+     /* padding: 2px; */
+     background-color: #ececec;
+}
+#start{
+    padding-bottom: 20px;
+    margin-left: 8px;
+}
+.section .container .row .spacing{
+    /* padding: 1px 50px; */
+    margin: 0px 10px 5px 0px;
+}
+.overall{
+     padding: 10px;
+}
+#circle{
+    /* height: 70px; */
+    /* width:70px; */
+    /* border-radius: 50%; */
+    /* position: fixed; */
+    /* right: 10px; */
+}
+#circle div{
+    /* position: fixed; */
+}
+#circle i{
+    /* vertical-align: middle; */
+    /* margin-left: 20px;
+    margin-top: 18px; */
+    /* margin-bottom: auto; */
+    /* margin-right: auto; */
+}

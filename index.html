@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Materilize Showcase Site: Android Kiosk</title>
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="fonts/material-icons.css">
+    <link rel="stylesheet" href="css/kiosk.css">
+</head>
+
+<body>
+    <header class="no-padding ">
+        <div class="navbar-fixed ">
+            <nav class="navfeature grey darken-3 ">
+                <div class="container nav-wrapper">
+                    <a href="#" class="brand-logo">
+                        <span class="hide-on-small-only">
+                            <img src="img/brand__white.png" width="30" alt="">
+                        </span>
+                        <span>Android Kiosk</span>
+                    </a>
+                    <a href="#" data-target="kioskMobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="#">App</a></li>
+                        <li><a href="#">Remote Management</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <ul class="sidenav" id="kioskMobile">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+    </ul>
+
+    <section class="section white no-pad-top" >
+        <div class="section grey darken-3 no-pad-bot z-depth-1 start-splash-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6 white-text ">
+                        <div class="splash">
+                            <p class="white-text" style="font-size: 30px;font-weight: 300;">Kiosk Lockdown</p>
+                            <h3 class="white-text splashP">Choose <span style="color:#689f38;">Kiosk Browser</span> for locking down websites or 
+                                <span class="orange-text text-darken-3">Kiosk Launcher</span>
+                                 for locking down a single app or multiple applications.</h3>
+                            <a class="waves-effect waves-light btn offArmyGreenBckGrd" id="firstA" style="margin-bottom: 10px;margin-right: 10px;"><i class="material-icons left">credit_card</i>Buy New (Browser)</a>
+                            <a class="waves-effect waves-light btn offdarkOrangeBckGrd" id="firstB" style="margin-bottom: 10px;margin-right: 10px;"><i class="material-icons left">credit_card</i>Buy New (Launcher)</a>
+                          
+                        </div>
+                       
+
+                     </div>
+
+                    <div class="col s6 l3">
+                        <div class="splashImgContainer">
+                            <img src="img/kbsplash.png" class="bannerImg splashImg responsive-img" alt="" >
+                        </div>                    
+                    </div>
+                    <div class="col s6 l3">
+                        <div class="splashImgContainer">
+                            <img src="img/klsplash.png" class="bannerImg splashImg responsive-img" alt="" >
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="padding white">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="text">Browser Features</h5>
+                    <p><span class="text"> Kiosk Browser </span>has an extensive feature set.
+                        You can try these features for 5 days simply by installing,
+                        a licence is required for both personal and commercial use.
+                    </p> 
+                    <a class="waves-effect waves-light btn green " href="#" id="install"><i
+                            class="material-icons ikons">shop</i> <span>Install Now</span></a>
+                    <a href="#" title="google"><img src="img/google-play-badge.png" alt="" width="148"
+                            class="responsive-img"> </a>
+
+                    <ul class="ul">
+                        <span class="white-text">Browser</span>
+                        <li>Lock your device(s) to a single URL</li>
+                        <li>Control clearing of <a href="#">cache, cookies, history & web storage</a></li>
+                        <li><a href="#">Screensaver</a> | <a href="#"> Bookmarks Bar</a> | <a href="#">Allow List</a> |
+                            <a href="#">Deny List</a> </li>
+                        <li><a href="#">NFC Reader </a>|<a href="#"> Barcode Scanner </a>| <a href="#"> Hardware Barcode
+                                Scanner Integration</a></li>
+                        <li><a href="#">Google Cloud Print </a>|<a href="#"> Bluetooth (ESC/POS) Printing</a></li>
+                        <li><a href="#">App Drawer </a>| <a href="#">JavaScript interface </a>|<a href="#"> XML Import &
+                                Export</a></li>
+                        <li><a href="#">Custom Error & Access Denied Pages </a> | <a href="#"> PDF Reader</a></li>
+                        <li>70+ settings to control every aspect of Kiosk Browser</li>
+                    </ul>
+                    <p><a class="text" href="#">We also offer a branding facility/customisation service.</a></p>
+                </div>
+
+                <div class="col s6 offset-s3 m6 center">
+                    <img src="img/ic_launcher256w.png" alt="" class="responsive-img">
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6 center hide-on-small-and-down">
+                    <img src="img/ic_launcher_kl256w.png" alt="" class="responsive-img">
+                </div>
+
+                <div class="col s12 m6">
+                    <h5 class="orangetext">Launcher Features</h5>
+                    <p><span class="orangetext">Kiosk Launcher</span> has an extensive feature set. You can try these
+                        features for 5 days simply by installing, a licence is required for both personal and commercial
+                        use.</p>
+                    <ul class="ul2">
+                        <span class="white-text"> Launcher</span>
+                        <li>Allow access to authorised applications only (all others are blocked)</li>
+                        <li class="orangetext">Launch single app automatically on launcher start/resume</li>
+                        <li class="orangetext">Automatic scheduled app updates</li>
+                        <li class="orangetext">Bulk configure via JSON file (Url)</li>
+                        <li class="orangetext">Install and update applications (APK) via provisioning OR via JSON</li>
+                    </ul>
+                    <a class="waves-effect waves-light btn orange " href="#" id="install"><i class="material-icons ikons">cloud_download</i><span>Install Now</span></a>
+                    
+                    <div class="col s6 offset-s3 m6 center hide-on-med-and-up">
+                        <img src="img/index.png" alt="" class="responsive-img">
+                    </div>
+                            
+                </div>
+               
+            </div>
+
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="green-text">Common <span class="orange-text">Features</span></h5>
+                    <ul class="ul3">
+                        <span class="green">Browser </span> <span class="orange">Launcher</span>
+
+                        <li>Password protected settings & WiFi settings</li>
+                        <li>Control visibility of toolbar</li>
+                        <li>Display your brand name and logo in the toolbar</li>
+                        <li>Choice of 10 themes</li>
+                        <li>Scheduled sleep/wake/app restart</li>
+                        <li>Automatic crash recovery</li>
+                    </ul>
+                </div>
+                <div class="col s6 offset-s3 m6 center">
+                    <img src="img/licensed_illustration_noicon2.png" alt="" class="responsive-img">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="padding2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="grey-text text-darken-3 ul">Provisioning Devices</h5>
+                    <p>When provisioning a device using our provisioning process your device is locked down in the most
+                        secure way possible. <span class="orange-text text-darken-3">Kiosk Browser</span>/<span
+                            class="green-text text-darken-3">Kiosk Launcher</span> becomes the "device owner" meaning
+                        that it is granted more permissions vs a standard installation.</p>
+                    <ul class="ul4">
+                        <li>Streamlined setup process (embed licence keys or remote management registration key)</li>
+                        <li>Set the default launcher programmatically without user intervention</li>
+                        <li>Hide home button and recents button</li>
+                        <li>Update Kiosk Browser/Kiosk Launcher without visiting your devices (via remote management)
+                        </li>
+                    </ul>
+                    <div class=" center">
+                        <a class="waves-effect waves-light btn green text-darken-3" href="#"
+                            style="margin-bottom: 10px;">More Info (Browser)</a>
+                        <a class="waves-effect waves-light btn orange text-darken-3" href="#"
+                            style="margin-bottom: 10px;">More Info (Browser)</a>
+                    </div>
+                </div>
+
+                <div class="col s6 offset-s3 m6 center">
+                    <img src="img/qrcode-scan-grey.png" alt="" style="margin-top: 10px;" class="responsive-img">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section white">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <h5 class="grey-text text-darken-3">Manage your installations remotely!</h5>
+                    <p>Our web based remote management console (subscription) provides central management functions for
+                        all your Kiosk Browser/Kiosk Launcher devices.</p>
+                    <blockquote> A subscription costs just £1 GBP / $1.60 USD <strong> per device</strong><em> per month
+                            (volume pricing is available).</em>
+                        <br> We offer a free 14 day trial with no obligation to subscribe once the trial ends.
+
+                    </blockquote>
+                    <div class="center">
+                        <a class="waves-effect waves-light btn grey darken-3" href="#">More Info & Free Trial...</a>
+                    </div>
+                </div>
+
+                <div class="col s6 offset-s3 m6 center">
+                    <img src="img/desk_illustration2.png" alt="" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 offset-s3 m6 center">
+                    <img src="img/ic_launcher_customise.png" alt="" class="responsive-img">
+                </div>
+
+                <div class="col s12 m6">
+                    <h5 class="white-text">Get Branded Version</h5>
+                    <p class="white-text text-darken-3">We offer a customisation service whereby we can create a custom
+                        version of <span class="green-text"> Kiosk Browser </span>(<span class="orange-text"> Kiosk
+                            Launcher</span> not currently available to brand) with your logo,
+                        application name, default URL and many other default settings.
+                    </p>
+                    <ul class="ul4 white-text">
+                        <li>Customised APK file</li>
+                        <li>Request a new APK whenever a new version of Kiosk Browser is released</li>
+                        <li>Fully compatible with our remote management service</li>
+                        <li>Embed licence keys or remote registration keys</li>
+                        <li>Embed a local start page for advanced onboarding procedures</li>
+                    </ul>
+                    <p><a class="white-text" href="#">FIND OUT MORE</a> <a class="white-text" href="#">BUY BRANDED
+                            VERSION</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="feature">
+        <div class="container">
+            <h5 id="start" class="grey-text text-darken-3">Screenshots</h5>
+            <div class="row">
+                <div class="col s12 m6">
+                    <img src="img/1.png" class="responsive-img materialboxed z-depth-5" alt="">
+                </div>
+                <div class="col s12 m6 ">
+                    <img src="img/kl2.png" class="responsive-img materialboxed z-depth-2"
+                        style="max-height: 475px; margin-left: auto; margin-right: auto;" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="center">
+                        <a href="" class="waves-effect waves-light btn green darken-3 spacing"><i
+                                class="material-icons left">credit_card</i> BUY NOW BROWSER</a>
+                        <a href="" class="waves-effect waves-light btn orange darken-3 spacing"><i
+                                class="material-icons left">credit_card</i> BUY NOW (LAUNCHER)</a>
+                        <a href="" class="waves-effect waves-light btn grey darken-3 spacing"><i
+                                class="material-icons left">desktop_mac</i> REMOTE MANAGE TRIALS</a>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section white">
+        <div class="container">
+            <h5 class="green-text text-darken-5">Some of our clients</h5>
+            <div class="row">
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/honda.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/vodafone.jpg" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/mazda.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/mg.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/adidas.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/coloradostate.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 offset-m2 m4 offset-l4 l2 overall">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/mountvernon.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s6 m4 l2 overall">
+                    <div class="valign-wrapper overall">
+                        <a href="#" class="waves-effect waves-light">
+                            <img src="img/university-of-vaasa.png" alt="" class="responsive-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m6">
+                <div class="col s3 m4 l3">
+                    <img src="img/material_man1.png" width="65" height="65" alt="" class="responsive-img">
+                </div>
+                <div class="col s9 m8 l9">
+                    <blockquote>
+                        <p class="grey-text text-darken-3" style="font-weight: 350;">
+                            <span style="font-weight: 700;">When we first</span> started working with this app, it had a
+                            pretty steep learning curve. These guys have been working diligently on building their
+                            documentation, listening to their customers and adding fixes/additional features; and it has
+                            paid off! This app is worth every cent if you are looking to use it commercially like we
+                            have.
+                        </p>
+                        <p style="font-weight: 100;">Gunther Vinson, TowMate LLC</p>
+                        <div class="divider"></div>
+
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="col s3 m4 l3">
+                    <img src="img/material_man3.png" alt="" width="65" height="65" class="responsive-img">
+                </div>
+
+                <div class="col s9 m8 l9">
+                    <blockquote>
+                        <p class="grey-text text-darken-3">
+                            <span style="font-weight: 700;">Great product - incredible support</span>. We use this
+                            product in about 40 locations at our company and it works perfectly all-day, every-day.
+
+                        <p> David Higginson </p>
+                        </p>
+                        <div class="divider"></div>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="col s12 m6">
+                <div class="col s3 m4 l3">
+                    <img src="img/material_man2.png" alt="" width="65" height="65" class="responsive-img">
+                </div>
+
+                <div class="col s9 m8 m9">
+                    <blockquote>
+                        <p class="grey-text text-darken-3">
+                            <span style="font-weight: 700;">Perfect</span>, use it for our tennis court reservation
+                            kiosk with a Google Apps Script web app. Works perfectly.
+                        <p>Serge Gravelle</p>
+                        </p>
+                    </blockquote>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <!-- <div class="green darken-3" id="circle" >
+        <div class="image" style="border-radius: 50%;" >
+            <img src="./img/adidas.png" alt="">
+        </div>
+    </div> -->
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Get In Touch</h5>
+                    <button class="waves-effect waves-light btn white light-green-text text-darken-3">
+                        CHAT WITH US
+                        <i class="material-icons right">message</i>
+                    </button>
+
+                    <form action="" method="">
+                        <div class="row">
+                            <div class="col s12 input-field ">
+                                <i class="material-icons ">email
+                                    <input type="email" name="email" class="white-text " id="email" placeholder="Email">
+                                    <!-- <label for="email">Email Adress</label>  -->
+                                </i>
+                            </div>
+
+                            <div class="col s12 input-field">
+                                <i class="material-icons left">create
+                                    <input type="text" name="message" id="message" placeholder="Message">
+                                </i>
+                                <!-- <label for="message">mess</label>  -->
+                            </div>
+
+                            <div class="col offset-s4 s8">
+                                <button class="waves-effect waves-light btn white light-green-text text-darken-3 ">SEND
+                                    <i class="material-icons text-darken-3 right">send</i>
+                                </button>
+                            </div>
+
+
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col offset-l2 l4 s12 " style="text-align: right;">
+                    <a href="#">
+                        <h5 class="white-text">Contact</h5>
+                    </a>
+                    <ul>
+                        <li>
+                            <span>ProCo IT <br>
+                                Unit 3 Castle Road, Chelston Business Park, Wellington, Somerset, TA21 9JQ, UK</span>
+
+                        </li>
+                        <li>
+                            <a href="#" class="white-text">support@android-kiosk.com</a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/google-play-badge.png" alt="" width="128">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="material-icons right">video_library</i>
+                            </a>
+                            <a href="#">
+                                <i class="material-icons right">email</i>
+                            </a>
+                        </li>
+                    </ul>
+                    <p> <span class="white-text right" style="font-size: 0.6em;">Android, Google Play and the Google
+                            Play logo are trademarks of Google Inc.</span>
+                    </p>
+                </div>
+            </div>
+
+
+
+
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <span class="white-text">© 2020 <a href="#" class="white-text">ProCo IT</a></span>
+                <a href="#" class="white-text right" title="Privacy & Cookies Policy">Privacy & Cookies Policy</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/kiosk.js"></script>
+</body>
+
+</html>
